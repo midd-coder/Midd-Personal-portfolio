@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Midlaj M. | Aviation & Logistics Specialist | Public Speaker</title>
+  <meta name="description" content="Portfolio of Midlaj M. - BBA in Aviation and Logistics with 200+ hours of airport operations experience at Sharjah International Airport, professional public speaker, and strategic thinker.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            aviation: {
+              navy: '#0B132B',
+              dark: '#1C2541',
+              blue: '#3A86FF',
+              sky: '#00B4D8',
+              gold: '#FFB703',
+              light: '#F8FAFC'
+            }
+          },
+          fontFamily: {
+            heading: ['Outfit', 'sans-serif'],
+            sans: ['Plus Jakarta Sans', 'sans-serif']
+          }
+        }
+      }
+    }
+  </script>
+  
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="bg-slate-50 text-slate-800 antialiased selection:bg-blue-600 selection:text-white">
+
+  <!-- ==================== HEADER / NAVIGATION ==================== -->
+  <header id="mainNav" class="fixed top-0 left-0 right-0 z-50 transition-all duration-300 bg-slate-900/85 backdrop-blur-md border-b border-slate-800/80">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex items-center justify-between h-20">
+        
+        <!-- Brand Logo -->
+        <a href="#hero" class="flex items-center gap-3 group">
+          <div class="w-11 h-11 rounded-xl bg-gradient-to-tr from-blue-600 to-cyan-400 flex items-center justify-center text-white shadow-lg shadow-blue-500/25 group-hover:scale-105 transition-transform">
+            <i data-lucide="plane" class="w-6 h-6 transform -rotate-45"></i>
+          </div>
+          <div>
+            <span class="text-xl font-bold tracking-tight text-white font-heading">MIDLAJ M.</span>
+            <span class="block text-[11px] font-medium uppercase tracking-widest text-cyan-400">Aviation & Logistics</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation Links -->
+        <nav class="hidden md:flex items-center space-x-1 lg:space-x-2">
+          <a href="#about" class="px-3 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-lg transition-colors">About</a>
+          <a href="#skills" class="px-3 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-lg transition-colors">Skills & Expertise</a>
+          <a href="#experience" class="px-3 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-lg transition-colors">Experience</a>
+          <a href="#projects" class="px-3 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-lg transition-colors">Projects</a>
+          <a href="#services" class="px-3 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-lg transition-colors">Services</a>
+          <a href="#speaking" class="px-3 py-2 text-sm font-medium text-slate-300 hover:text-white hover:bg-slate-800/50 rounded-lg transition-colors">Public Speaking</a>
+        </nav>
+
+        <!-- Right Action Button & Social Links -->
+        <div class="hidden lg:flex items-center gap-3">
+          <a href="https://www.linkedin.com/in/midlaj-m1" target="_blank" rel="noopener noreferrer" class="p-2 text-slate-400 hover:text-white hover:bg-slate-800 rounded-lg transition-colors" title="LinkedIn Profile">
+            <i data-lucide="linkedin" class="w-5 h-5"></i>
+          </a>
+          <a href="https://www.instagram.com/__.mid_laj._" target="_blank" rel="noopener noreferrer" class="p-2 text-slate-400 hover:text-pink-400 hover:bg-slate-800 rounded-lg transition-colors" title="Instagram Profile">
+            <i data-lucide="instagram" class="w-5 h-5"></i>
+          </a>
+          <a href="#contact" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-medium text-sm shadow-md shadow-blue-500/20 hover:shadow-blue-500/40 hover:opacity-95 transition-all">
+            <span>Contact Me</span>
+            <i data-lucide="arrow-right" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobileMenuBtn" type="button" class="md:hidden p-2.5 rounded-lg text-slate-400 hover:text-white hover:bg-slate-800 focus:outline-none" aria-label="Toggle Navigation">
+          <i data-lucide="menu" class="w-6 h-6"></i>
+        </button>
+
+      </div>
+    </div>
+
+    <!-- Mobile Dropdown Navigation -->
+    <div id="mobileMenu" class="hidden md:hidden bg-slate-900 border-b border-slate-800 px-4 pt-2 pb-6 space-y-2">
+      <a href="#about" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">About</a>
+      <a href="#skills" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">Skills & Expertise</a>
+      <a href="#experience" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">Experience</a>
+      <a href="#projects" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">Projects</a>
+      <a href="#services" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">Services</a>
+      <a href="#speaking" class="mobile-nav-link block px-3 py-2 rounded-md text-base font-medium text-slate-300 hover:text-white hover:bg-slate-800">Public Speaking</a>
+      <div class="pt-4 border-t border-slate-800 flex flex-col gap-3">
+        <div class="flex items-center gap-4 px-2">
+          <a href="https://www.linkedin.com/in/midlaj-m1" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-slate-300 hover:text-blue-400">
+            <i data-lucide="linkedin" class="w-4 h-4"></i> LinkedIn: midlaj-m1
+          </a>
+          <a href="https://www.instagram.com/__.mid_laj._" target="_blank" rel="noopener noreferrer" class="flex items-center gap-2 text-sm text-slate-300 hover:text-pink-400">
+            <i data-lucide="instagram" class="w-4 h-4"></i> @__.mid_laj._
+          </a>
+        </div>
+        <a href="#contact" class="mobile-nav-link text-center px-4 py-2.5 rounded-lg bg-blue-600 text-white font-medium">Get in Touch</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==================== HERO SECTION ==================== -->
+  <section id="hero" class="relative pt-32 pb-20 md:pt-40 md:pb-28 bg-gradient-to-b from-slate-950 via-[#0B132B] to-slate-900 text-white overflow-hidden">
+    <!-- Ambient Background Lighting -->
+    <div class="absolute top-1/4 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-blue-600/15 rounded-full blur-3xl pointer-events-none"></div>
+    <div class="absolute -top-24 -right-24 w-96 h-96 bg-cyan-500/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Content Column -->
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          
+          <!-- Status Badge -->
+          <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-blue-900/60 border border-blue-400/30 text-blue-300 text-xs sm:text-sm font-medium shadow-inner">
+            <span class="w-2 h-2 rounded-full bg-emerald-400 animate-pulse"></span>
+            <span>Aviation Operations Specialist & Professional Speaker</span>
+          </div>
+
+          <!-- Main Headline -->
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-heading tracking-tight text-white leading-tight">
+            Navigating Airport Complexities. <br class="hidden sm:inline">
+            <span class="bg-gradient-to-r from-blue-400 via-cyan-300 to-sky-200 bg-clip-text text-transparent">
+              Inspiring Through Ideas.
+            </span>
+          </h1>
+
+          <!-- Descriptive Subtitle -->
+          <p class="text-lg sm:text-xl text-slate-300 font-light max-w-2xl leading-relaxed mx-auto lg:mx-0">
+            Hello, I'm <strong class="text-white font-semibold">Midlaj M.</strong>, a <span class="text-cyan-300 font-medium">BBA graduate in Aviation & Logistics</span> with over <span class="text-amber-300 font-medium">200 hours</span> of ground-level operational experience at <strong class="text-white font-semibold">Sharjah International Airport (SHJ)</strong>. A proactive thinker, logistics enthusiast, and dynamic public speaker dedicated to airport operational excellence.
+          </p>
+
+          <!-- Call to Action Buttons -->
+          <div class="flex flex-wrap items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#projects" class="px-7 py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-semibold shadow-lg shadow-blue-500/30 hover:shadow-blue-500/50 hover:scale-[1.02] transition-all flex items-center gap-2">
+              <i data-lucide="layers" class="w-5 h-5"></i>
+              <span>View Projects & Work</span>
+            </a>
+            <a href="#contact" class="px-7 py-3.5 rounded-xl bg-slate-800/90 hover:bg-slate-700 border border-slate-700 text-slate-200 font-semibold hover:text-white transition-all flex items-center gap-2">
+              <i data-lucide="send" class="w-5 h-5 text-cyan-400"></i>
+              <span>Get In Touch</span>
+            </a>
+          </div>
+
+          <!-- Social Connect Badges -->
+          <div class="pt-4 flex flex-wrap items-center justify-center lg:justify-start gap-3 text-sm text-slate-400">
+            <span>Connect directly:</span>
+            <a href="https://www.linkedin.com/in/midlaj-m1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-blue-950/70 border border-blue-500/30 text-blue-300 hover:text-white hover:bg-blue-900 transition-colors">
+              <i data-lucide="linkedin" class="w-4 h-4 text-[#0077b5]"></i>
+              <span class="font-medium">midlaj-m1</span>
+            </a>
+            <a href="https://www.instagram.com/__.mid_laj._" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 px-3 py-1 rounded-lg bg-pink-950/50 border border-pink-500/30 text-pink-300 hover:text-white hover:bg-pink-900 transition-colors">
+              <i data-lucide="instagram" class="w-4 h-4 text-pink-400"></i>
+              <span class="font-medium">@__.mid_laj._</span>
+            </a>
+          </div>
+
+        </div>
+
+        <!-- Right Visual Showcase Column -->
+        <div class="lg:col-span-5 relative">
+          <div class="relative mx-auto max-w-md">
+            
+            <!-- Glow effect border -->
+            <div class="absolute -inset-1 rounded-3xl bg-gradient-to-r from-blue-600 via-cyan-400 to-amber-400 opacity-30 blur-xl animate-pulse-glow"></div>
+            
+            <!-- Main Hero Feature Card -->
+            <div class="relative rounded-2xl bg-gradient-to-b from-slate-900 to-[#101b38] border border-blue-500/30 p-6 sm:p-8 shadow-2xl space-y-6 radar-sweep">
+              
+              <!-- Card Header -->
+              <div class="flex items-center justify-between border-b border-slate-800 pb-5">
+                <div class="flex items-center gap-3">
+                  <div class="w-12 h-12 rounded-full bg-blue-600/30 border border-blue-400/40 flex items-center justify-center text-cyan-300">
+                    <i data-lucide="compass" class="w-6 h-6 animate-spin" style="animation-duration: 25s;"></i>
+                  </div>
+                  <div>
+                    <h3 class="text-white font-bold font-heading text-lg">Sharjah Int'l Airport (SHJ)</h3>
+                    <p class="text-xs text-slate-400">200+ Operational Hours Ground Experience</p>
+                  </div>
+                </div>
+                <span class="px-2.5 py-1 text-xs font-semibold rounded-full bg-emerald-500/20 text-emerald-300 border border-emerald-500/30">Verified</span>
+              </div>
+
+              <!-- Quick Highlights List -->
+              <div class="space-y-3.5">
+                <div class="flex items-center gap-3.5 p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                  <div class="w-9 h-9 rounded-lg bg-blue-500/20 text-blue-400 flex items-center justify-center shrink-0">
+                    <i data-lucide="plane-takeoff" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-sm font-semibold text-white">Airport Operations</h4>
+                    <p class="text-xs text-slate-300">Terminal coordination, turnaround supervision & ramp safety</p>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3.5 p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                  <div class="w-9 h-9 rounded-lg bg-cyan-500/20 text-cyan-400 flex items-center justify-center shrink-0">
+                    <i data-lucide="package-check" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-sm font-semibold text-white">Logistics & Supply Chain</h4>
+                    <p class="text-xs text-slate-300">Cargo documentation, AWB, and freight movement fundamentals</p>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3.5 p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                  <div class="w-9 h-9 rounded-lg bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">
+                    <i data-lucide="mic" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-sm font-semibold text-white">Public Speaking & Oratory</h4>
+                    <p class="text-xs text-slate-300">Keynote speaking, emceeing events, and persuasive discourse</p>
+                  </div>
+                </div>
+
+                <div class="flex items-center gap-3.5 p-3 rounded-xl bg-slate-800/60 border border-slate-700/60">
+                  <div class="w-9 h-9 rounded-lg bg-purple-500/20 text-purple-400 flex items-center justify-center shrink-0">
+                    <i data-lucide="brain-circuit" class="w-5 h-5"></i>
+                  </div>
+                  <div>
+                    <h4 class="text-sm font-semibold text-white">Strategic & Creative Thinker</h4>
+                    <p class="text-xs text-slate-300">Analytical problem-solving under fast-paced operational pressure</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Live Status Footer -->
+              <div class="pt-2 flex items-center justify-between text-xs text-slate-400 border-t border-slate-800">
+                <span class="flex items-center gap-1.5">
+                  <i data-lucide="map-pin" class="w-3.5 h-3.5 text-red-400"></i> UAE & India (Global Mobility)
+                </span>
+                <span class="flex items-center gap-1.5 text-cyan-300">
+                  <i data-lucide="shield-check" class="w-3.5 h-3.5"></i> IATA / ICAO Awareness
+                </span>
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== STATS COUNTER BAR ==================== -->
+  <section id="statsContainer" class="relative z-20 -mt-8 max-w-6xl mx-auto px-4 sm:px-6">
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4 bg-white rounded-2xl shadow-xl border border-slate-200/80 p-6 md:p-8">
+      
+      <div class="text-center p-3">
+        <div class="text-3xl md:text-4xl font-extrabold text-blue-600 font-heading counter-val" data-target="200" data-suffix="+">0+</div>
+        <p class="text-xs md:text-sm font-medium text-slate-600 mt-1">Hours in Sharjah Airport</p>
+      </div>
+
+      <div class="text-center p-3 border-l border-slate-100">
+        <div class="text-3xl md:text-4xl font-extrabold text-cyan-600 font-heading">BBA</div>
+        <p class="text-xs md:text-sm font-medium text-slate-600 mt-1">Aviation & Logistics</p>
+      </div>
+
+      <div class="text-center p-3 border-l-0 md:border-l border-slate-100">
+        <div class="text-3xl md:text-4xl font-extrabold text-amber-500 font-heading counter-val" data-target="15" data-suffix="+">0+</div>
+        <p class="text-xs md:text-sm font-medium text-slate-600 mt-1">Public Speaking Sessions</p>
+      </div>
+
+      <div class="text-center p-3 border-l border-slate-100">
+        <div class="text-3xl md:text-4xl font-extrabold text-emerald-600 font-heading counter-val" data-target="100" data-suffix="%">0%</div>
+        <p class="text-xs md:text-sm font-medium text-slate-600 mt-1">Safety & Operational Focus</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== ABOUT SECTION ==================== -->
+  <section id="about" class="py-24 bg-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-widest text-blue-600 bg-blue-50 px-3 py-1 rounded-md">About Me</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-heading text-slate-900 mt-3">Driven by Aviation. Empowered by Purpose.</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <!-- Left Column: Story -->
+        <div class="lg:col-span-7 space-y-6 text-slate-600 leading-relaxed text-base sm:text-lg">
+          <p>
+            Welcome! I am <strong class="text-slate-900 font-semibold">Midlaj M.</strong>, a forward-looking aviation and logistics specialist. Holding a Bachelor of Business Administration (BBA) in <strong class="text-blue-700">Aviation and Logistics</strong>, my passion lies in orchestrating seamless airport operations, understanding aircraft turnarounds, and mastering the complex gears of supply chain networks.
+          </p>
+
+          <p>
+            During my <strong class="text-slate-900 font-semibold">200+ operational hours at Sharjah International Airport (SHJ)</strong>, I immersed myself in the vibrant pulse of airport operations. I witnessed firsthand how precision, stringent safety protocols, customer passenger experience, and on-time performance harmoniously converge in a major Middle Eastern transit hub.
+          </p>
+
+          <p>
+            Beyond technical aviation operations, I am recognized for my <strong class="text-blue-700 font-semibold">public speaking</strong>, debate participation, and event emceeing. I believe that clear communication, emotional intelligence, and confident leadership are just as critical in an airport terminal or control room as technical checklists. I constantly push myself to <strong class="text-slate-900 font-semibold">"think more"</strong>—digging deeper into root causes, innovating workflows, and bridging gaps between operations and people.
+          </p>
+
+          <!-- Core Value Badges -->
+          <div class="pt-2 grid grid-cols-2 sm:grid-cols-3 gap-3">
+            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-center">
+              <i data-lucide="clock" class="w-5 h-5 mx-auto text-blue-600 mb-1"></i>
+              <span class="text-xs font-bold text-slate-800 block">Punctuality</span>
+              <span class="text-[11px] text-slate-500">Zero-Delay Attitude</span>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-center">
+              <i data-lucide="shield-check" class="w-5 h-5 mx-auto text-emerald-600 mb-1"></i>
+              <span class="text-xs font-bold text-slate-800 block">Safety First</span>
+              <span class="text-[11px] text-slate-500">IATA & ICAO Standards</span>
+            </div>
+            <div class="p-3 rounded-xl bg-slate-50 border border-slate-200 text-center col-span-2 sm:col-span-1">
+              <i data-lucide="lightbulb" class="w-5 h-5 mx-auto text-amber-500 mb-1"></i>
+              <span class="text-xs font-bold text-slate-800 block">Critical Thinker</span>
+              <span class="text-[11px] text-slate-500">Deep Operational Logic</span>
+            </div>
+          </div>
+
+          <!-- Social Buttons -->
+          <div class="pt-4 flex flex-wrap gap-4">
+            <a href="https://www.linkedin.com/in/midlaj-m1" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-[#0077b5] text-white text-sm font-semibold hover:bg-[#005582] transition-colors shadow-sm">
+              <i data-lucide="linkedin" class="w-4 h-4"></i>
+              <span>View LinkedIn Profile</span>
+            </a>
+            <a href="https://www.instagram.com/__.mid_laj._" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-gradient-to-r from-purple-600 via-pink-600 to-amber-500 text-white text-sm font-semibold hover:opacity-90 transition-opacity shadow-sm">
+              <i data-lucide="instagram" class="w-4 h-4"></i>
+              <span>Follow on Instagram (@__.mid_laj._)</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Column: Interactive Highlights Cards -->
+        <div class="lg:col-span-5 grid grid-cols-1 sm:grid-cols-2 gap-4">
+          
+          <div class="p-6 rounded-2xl bg-gradient-to-br from-blue-50 to-white border border-blue-100 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl bg-blue-600 text-white flex items-center justify-center mb-4">
+              <i data-lucide="plane" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 font-heading">Airport Ops</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Trained in terminal passenger flows, boarding gate management, ramp awareness, and flight turnaround support.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-gradient-to-br from-cyan-50 to-white border border-cyan-100 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl bg-cyan-600 text-white flex items-center justify-center mb-4">
+              <i data-lucide="truck" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 font-heading">Logistics</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Air freight fundamentals, cargo tracking, warehouse handling, and multimodal supply chain processes.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-gradient-to-br from-amber-50 to-white border border-amber-100 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl bg-amber-500 text-white flex items-center justify-center mb-4">
+              <i data-lucide="mic" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 font-heading">Public Speaking</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              High-impact oratorical delivery, youth leadership, debate, and captivating stage presence.
+            </p>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-gradient-to-br from-purple-50 to-white border border-purple-100 shadow-sm hover:shadow-md transition-shadow">
+            <div class="w-12 h-12 rounded-xl bg-purple-600 text-white flex items-center justify-center mb-4">
+              <i data-lucide="brain" class="w-6 h-6"></i>
+            </div>
+            <h3 class="text-lg font-bold text-slate-900 font-heading">Strategic Thinking</h3>
+            <p class="text-xs text-slate-600 mt-2 leading-relaxed">
+              Continuous questioning, operational bottleneck diagnosis, and visionary problem solving.
+            </p>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SKILLS & EXPERTISE ==================== -->
+  <section id="skills" class="py-24 bg-slate-900 text-white relative overflow-hidden">
+    <!-- Background Decor -->
+    <div class="absolute -bottom-24 -left-24 w-96 h-96 bg-blue-600/10 rounded-full blur-3xl pointer-events-none"></div>
+
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-widest text-cyan-400 bg-cyan-950/60 border border-cyan-800/60 px-3 py-1 rounded-md">Competencies</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-heading text-white mt-3">Skills & Operational Expertise</h2>
+        <p class="text-slate-400 mt-3 text-sm sm:text-base">
+          A blend of aviation technical rigor, modern supply chain methodologies, and commanding interpersonal leadership.
+        </p>
+        <div class="w-16 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <!-- Grid of Expertise Categories -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        
+        <!-- Category 1: Airport Operations -->
+        <div class="rounded-2xl bg-slate-800/80 border border-slate-700 p-7 space-y-6 hover:border-blue-500/50 transition-all interactive-card">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 border border-blue-500/30 flex items-center justify-center">
+              <i data-lucide="plane" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold font-heading text-white">Airport Operations</h3>
+              <p class="text-xs text-slate-400">Ground Handling & Passenger Services</p>
+            </div>
+          </div>
+
+          <ul class="space-y-3 text-sm text-slate-300">
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Terminal Passenger Flow & Crowd Control</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Boarding Gate & Check-in Procedures</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Ramp Safety & Aircraft Turnaround Watch</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Baggage Reconciliation & Tracing (BRS)</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>IATA & ICAO Safety Regulatory Awareness</span>
+            </li>
+          </ul>
+
+          <div class="pt-2 border-t border-slate-700/60 flex flex-wrap gap-1.5">
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Sharjah SHJ</span>
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Ramp Ops</span>
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Turnaround</span>
+          </div>
+        </div>
+
+        <!-- Category 2: Logistics & Supply Chain -->
+        <div class="rounded-2xl bg-slate-800/80 border border-slate-700 p-7 space-y-6 hover:border-cyan-500/50 transition-all interactive-card">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-cyan-600/20 text-cyan-400 border border-cyan-500/30 flex items-center justify-center">
+              <i data-lucide="boxes" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold font-heading text-white">Logistics & Supply Chain</h3>
+              <p class="text-xs text-slate-400">Cargo & Multimodal Transportation</p>
+            </div>
+          </div>
+
+          <ul class="space-y-3 text-sm text-slate-300">
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Air Waybill (AWB) & Shipping Manifests</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Air Cargo & Freight Handling Principles</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Inventory Control & Warehouse Dynamics</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Multimodal Transport Coordination (Air/Sea/Land)</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-cyan-400 shrink-0"></i>
+              <span>Supply Chain Vulnerability Analysis</span>
+            </li>
+          </ul>
+
+          <div class="pt-2 border-t border-slate-700/60 flex flex-wrap gap-1.5">
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Air Cargo</span>
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Freight Flow</span>
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Supply Chain</span>
+          </div>
+        </div>
+
+        <!-- Category 3: Public Speaking & Leadership -->
+        <div class="rounded-2xl bg-slate-800/80 border border-slate-700 p-7 space-y-6 hover:border-amber-500/50 transition-all interactive-card md:col-span-2 lg:col-span-1">
+          <div class="flex items-center gap-4">
+            <div class="w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 border border-amber-500/30 flex items-center justify-center">
+              <i data-lucide="mic-vocal" class="w-6 h-6"></i>
+            </div>
+            <div>
+              <h3 class="text-lg font-bold font-heading text-white">Public Speaking & Thought</h3>
+              <p class="text-xs text-slate-400">Communication & Leadership</p>
+            </div>
+          </div>
+
+          <ul class="space-y-3 text-sm text-slate-300">
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400 shrink-0"></i>
+              <span>Keynote Delivery & Conference Hosting (Emcee)</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400 shrink-0"></i>
+              <span>Persuasive Articulation & Debating</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400 shrink-0"></i>
+              <span>"More Think" — Deep Strategic Reasoning</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400 shrink-0"></i>
+              <span>Cross-Functional Team Collaboration</span>
+            </li>
+            <li class="flex items-center gap-2.5">
+              <i data-lucide="check-circle-2" class="w-4 h-4 text-amber-400 shrink-0"></i>
+              <span>Crisis Communication & Poise Under Pressure</span>
+            </li>
+          </ul>
+
+          <div class="pt-2 border-t border-slate-700/60 flex flex-wrap gap-1.5">
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Keynote Speaker</span>
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Oratory</span>
+            <span class="text-[11px] px-2.5 py-1 rounded-md bg-slate-700 text-slate-300 font-medium">Leadership</span>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== EXPERIENCE & MILESTONES ==================== -->
+  <section id="experience" class="py-24 bg-slate-100 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-widest text-blue-600 bg-blue-50 px-3 py-1 rounded-md">Timeline</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-heading text-slate-900 mt-3">Professional Experience & Training</h2>
+        <div class="w-16 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <!-- Experience Timeline -->
+      <div class="relative border-l-2 border-blue-500/40 ml-4 md:ml-32 space-y-12">
+        
+        <!-- Experience Item 1: Sharjah Airport -->
+        <div class="relative pl-8 md:pl-12 group">
+          <!-- Timeline Pin -->
+          <div class="absolute -left-[17px] top-1.5 w-8 h-8 rounded-full bg-blue-600 text-white flex items-center justify-center shadow-md ring-4 ring-slate-100 group-hover:scale-110 transition-transform">
+            <i data-lucide="plane-takeoff" class="w-4 h-4"></i>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-blue-600">Airport Operations Trainee (200+ Hours)</span>
+                <h3 class="text-xl sm:text-2xl font-bold text-slate-900 font-heading">Sharjah International Airport (SHJ)</h3>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-blue-50 text-blue-700 text-xs font-semibold border border-blue-200">
+                Sharjah, United Arab Emirates
+              </span>
+            </div>
+
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+              Completed over <strong class="text-slate-900 font-semibold">200 operational hours</strong> immersed in real-world airport terminal and ground support activities at Sharjah International Airport, a cornerstone aviation hub in the UAE.
+            </p>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-3 text-xs sm:text-sm text-slate-700">
+              <div class="flex items-start gap-2">
+                <i data-lucide="arrow-right" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                <span>Assisted passenger navigation, queue distribution, and boarding gate protocols during high-density flight banks.</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <i data-lucide="arrow-right" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                <span>Observed aircraft turnaround servicing, ground handling coordination, and baggage conveyor flows.</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <i data-lucide="arrow-right" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                <span>Gained exposure to international security standards, customs coordination, and ramp safety procedures.</span>
+              </div>
+              <div class="flex items-start gap-2">
+                <i data-lucide="arrow-right" class="w-4 h-4 text-blue-600 mt-0.5 shrink-0"></i>
+                <span>Collaborated seamlessly across multicultural airline staff, ground crews, and passenger assistance teams.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Item 2: Education -->
+        <div class="relative pl-8 md:pl-12 group">
+          <div class="absolute -left-[17px] top-1.5 w-8 h-8 rounded-full bg-cyan-600 text-white flex items-center justify-center shadow-md ring-4 ring-slate-100 group-hover:scale-110 transition-transform">
+            <i data-lucide="graduation-cap" class="w-4 h-4"></i>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-cyan-600">Bachelor's Degree</span>
+                <h3 class="text-xl sm:text-2xl font-bold text-slate-900 font-heading">BBA in Aviation & Logistics</h3>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-cyan-50 text-cyan-700 text-xs font-semibold border border-cyan-200">
+                Academic Degree
+              </span>
+            </div>
+
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-4">
+              Comprehensive business administration curriculum specialized in aviation management, airline economics, air cargo regulations, and global supply chain logistics.
+            </p>
+
+            <div class="flex flex-wrap gap-2 text-xs font-medium text-slate-600">
+              <span class="px-3 py-1 rounded-lg bg-slate-100">Airport Planning</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-100">Aviation Law & Safety</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-100">Air Cargo & Freight</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-100">Supply Chain Management</span>
+              <span class="px-3 py-1 rounded-lg bg-slate-100">Aviation Economics</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience Item 3: Public Speaking & Oratory -->
+        <div class="relative pl-8 md:pl-12 group">
+          <div class="absolute -left-[17px] top-1.5 w-8 h-8 rounded-full bg-amber-500 text-white flex items-center justify-center shadow-md ring-4 ring-slate-100 group-hover:scale-110 transition-transform">
+            <i data-lucide="mic" class="w-4 h-4"></i>
+          </div>
+
+          <div class="bg-white rounded-2xl p-6 sm:p-8 shadow-sm border border-slate-200/80 hover:shadow-md transition-shadow">
+            <div class="flex flex-wrap items-center justify-between gap-2 mb-3">
+              <div>
+                <span class="text-xs font-bold uppercase tracking-wider text-amber-600">Thought Leadership & Oratory</span>
+                <h3 class="text-xl sm:text-2xl font-bold text-slate-900 font-heading">Keynote Speaker & Stage Host</h3>
+              </div>
+              <span class="px-3 py-1 rounded-full bg-amber-50 text-amber-700 text-xs font-semibold border border-amber-200">
+                15+ Events & Seminars
+              </span>
+            </div>
+
+            <p class="text-slate-600 text-sm sm:text-base leading-relaxed mb-3">
+              Frequently engaged as an inspirational speaker, master of ceremonies (emcee), and panelist addressing youth audiences on leadership, discipline, career growth in aviation, and overcoming the fear of public communication.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== PROJECTS & CASE STUDIES ==================== -->
+  <section id="projects" class="py-24 bg-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-12">
+        <span class="text-xs uppercase font-bold tracking-widest text-blue-600 bg-blue-50 px-3 py-1 rounded-md">Portfolio</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-heading text-slate-900 mt-3">Featured Projects & Case Studies</h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base">
+          A showcase of hands-on operations, research papers, logistics analysis, and leadership initiatives.
+        </p>
+        <div class="w-16 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <!-- Filter Buttons -->
+      <div class="flex flex-wrap items-center justify-center gap-2 mb-12">
+        <button type="button" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-blue-600 text-white" data-filter="all">All Projects</button>
+        <button type="button" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-slate-100 text-slate-700 hover:bg-slate-200" data-filter="airport">Airport Operations</button>
+        <button type="button" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-slate-100 text-slate-700 hover:bg-slate-200" data-filter="logistics">Logistics & Supply Chain</button>
+        <button type="button" class="filter-btn px-4 py-2 rounded-xl text-xs sm:text-sm font-semibold transition-all bg-slate-100 text-slate-700 hover:bg-slate-200" data-filter="speaking">Speaking & Leadership</button>
+      </div>
+
+      <!-- Projects Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        
+        <!-- Project 1: Sharjah Airport Operations -->
+        <div class="project-card rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="airport">
+          <div class="p-7">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-bold uppercase tracking-wider">Airport Operations</span>
+              <span class="text-xs text-slate-500 font-medium">Sharjah (SHJ)</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 font-heading mb-3">Terminal Flow & Passenger Turnaround Case Study</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Comprehensive on-ground analysis of passenger bottlenecks at Sharjah International Airport during peak transit banks. Examined queue distribution, gate handling, and turnaround synchronization.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs font-medium text-slate-600">
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Terminal Ops</span>
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Queue Modeling</span>
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Turnaround</span>
+            </div>
+          </div>
+          <div class="px-7 py-4 bg-white border-t border-slate-200 flex items-center justify-between">
+            <span class="text-xs text-blue-600 font-semibold">200+ Hours Field Exposure</span>
+            <button type="button" class="open-modal-btn inline-flex items-center gap-1.5 text-xs font-bold text-slate-900 hover:text-blue-600 transition-colors" data-project="shj-terminal">
+              <span>Read Full Case</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 2: Multimodal Logistics -->
+        <div class="project-card rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="logistics">
+          <div class="p-7">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-full bg-cyan-100 text-cyan-700 text-xs font-bold uppercase tracking-wider">Logistics & Supply Chain</span>
+              <span class="text-xs text-slate-500 font-medium">GCC Corridor</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 font-heading mb-3">GCC Multimodal Air-to-Sea Cargo Synchronization</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              Strategic exploration into interconnecting airport air-freight hubs with seaport customs points across the United Arab Emirates to diminish transit dwell times by 18%.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs font-medium text-slate-600">
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Air Cargo</span>
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Freight Forwarding</span>
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Cross-Docking</span>
+            </div>
+          </div>
+          <div class="px-7 py-4 bg-white border-t border-slate-200 flex items-center justify-between">
+            <span class="text-xs text-cyan-600 font-semibold">BBA Logistics Capstone</span>
+            <button type="button" class="open-modal-btn inline-flex items-center gap-1.5 text-xs font-bold text-slate-900 hover:text-blue-600 transition-colors" data-project="cargo-logistics">
+              <span>Read Full Case</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 3: Public Speaking Series -->
+        <div class="project-card rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="speaking">
+          <div class="p-7">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-full bg-amber-100 text-amber-700 text-xs font-bold uppercase tracking-wider">Public Speaking</span>
+              <span class="text-xs text-slate-500 font-medium">Youth Empowerment</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 font-heading mb-3">The Orator’s Runway: Speaking & Leadership Workshops</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              A bespoke series of mentorship sessions designed by Midlaj M. to train young aspirants in overcoming stage fright, speaking with executive poise, and articulating technical ideas with clarity.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs font-medium text-slate-600">
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Keynote Talks</span>
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Emceeing</span>
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Youth Mentorship</span>
+            </div>
+          </div>
+          <div class="px-7 py-4 bg-white border-t border-slate-200 flex items-center justify-between">
+            <span class="text-xs text-amber-600 font-semibold">150+ Attendees Trained</span>
+            <button type="button" class="open-modal-btn inline-flex items-center gap-1.5 text-xs font-bold text-slate-900 hover:text-blue-600 transition-colors" data-project="public-speaking">
+              <span>Read Full Case</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+        <!-- Project 4: Smart Airport Framework -->
+        <div class="project-card rounded-2xl bg-slate-50 border border-slate-200 overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between" data-category="airport">
+          <div class="p-7">
+            <div class="flex items-center justify-between mb-4">
+              <span class="px-3 py-1 rounded-full bg-purple-100 text-purple-700 text-xs font-bold uppercase tracking-wider">Operational Strategy</span>
+              <span class="text-xs text-slate-500 font-medium">Innovation</span>
+            </div>
+            <h3 class="text-xl font-bold text-slate-900 font-heading mb-3">Sustainable Turnaround: Smart Ground Support Blueprint</h3>
+            <p class="text-slate-600 text-sm leading-relaxed mb-4">
+              An architectural blueprint exploring electric ground support equipment (e-GSE) and optimized turnaround sequencing to eliminate ramp collisions and trim turnaround times by 8 minutes.
+            </p>
+            <div class="flex flex-wrap gap-2 text-xs font-medium text-slate-600">
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Ramp Safety</span>
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">ICAO Annex 14</span>
+              <span class="px-2.5 py-1 rounded-md bg-white border border-slate-200">Zero Incident SOP</span>
+            </div>
+          </div>
+          <div class="px-7 py-4 bg-white border-t border-slate-200 flex items-center justify-between">
+            <span class="text-xs text-purple-600 font-semibold">Innovation Research</span>
+            <button type="button" class="open-modal-btn inline-flex items-center gap-1.5 text-xs font-bold text-slate-900 hover:text-blue-600 transition-colors" data-project="strategic-aviation">
+              <span>Read Full Case</span>
+              <i data-lucide="arrow-up-right" class="w-4 h-4"></i>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== SERVICES SECTION ==================== -->
+  <section id="services" class="py-24 bg-slate-900 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-widest text-cyan-400 bg-cyan-950/60 border border-cyan-800/60 px-3 py-1 rounded-md">Offerings</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-heading text-white mt-3">Services & How I Can Add Value</h2>
+        <p class="text-slate-400 mt-3 text-sm sm:text-base">
+          Available for airport ground handling operations, logistics coordination roles, and public speaking engagements worldwide.
+        </p>
+        <div class="w-16 h-1 bg-gradient-to-r from-blue-500 to-cyan-400 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <!-- Services 4-Card Grid -->
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        
+        <!-- Service 1 -->
+        <div class="p-6 rounded-2xl bg-slate-800/90 border border-slate-700 hover:border-blue-500 transition-all space-y-4">
+          <div class="w-12 h-12 rounded-xl bg-blue-600/20 text-blue-400 flex items-center justify-center">
+            <i data-lucide="plane-landing" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white">Airport Operations & Ground Services</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Supporting passenger handling, turnaround synchronization, gate dispatch, and ramp safety with high situational awareness.
+          </p>
+        </div>
+
+        <!-- Service 2 -->
+        <div class="p-6 rounded-2xl bg-slate-800/90 border border-slate-700 hover:border-cyan-500 transition-all space-y-4">
+          <div class="w-12 h-12 rounded-xl bg-cyan-600/20 text-cyan-400 flex items-center justify-center">
+            <i data-lucide="container" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white">Logistics & Freight Coordination</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Managing air cargo documentation (AWB), freight transit oversight, inventory control, and cross-modal logistics routes.
+          </p>
+        </div>
+
+        <!-- Service 3 -->
+        <div class="p-6 rounded-2xl bg-slate-800/90 border border-slate-700 hover:border-amber-500 transition-all space-y-4">
+          <div class="w-12 h-12 rounded-xl bg-amber-500/20 text-amber-400 flex items-center justify-center">
+            <i data-lucide="mic" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white">Public Speaking & Event Emceeing</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Delivering high-energy keynote talks, moderating panel debates, and hosting corporate or collegiate ceremonies with poise.
+          </p>
+        </div>
+
+        <!-- Service 4 -->
+        <div class="p-6 rounded-2xl bg-slate-800/90 border border-slate-700 hover:border-purple-500 transition-all space-y-4">
+          <div class="w-12 h-12 rounded-xl bg-purple-600/20 text-purple-400 flex items-center justify-center">
+            <i data-lucide="lightbulb" class="w-6 h-6"></i>
+          </div>
+          <h3 class="text-lg font-bold font-heading text-white">Strategic Operational Consulting</h3>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Identifying operational bottlenecks, analyzing safety workflows, and crafting strategies to enhance team performance.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== PUBLIC SPEAKING SPOTLIGHT ==================== -->
+  <section id="speaking" class="py-24 bg-gradient-to-r from-blue-900 via-indigo-950 to-slate-900 text-white relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-6 space-y-6">
+          <span class="text-xs uppercase font-bold tracking-widest text-amber-400 bg-amber-950/60 border border-amber-800/60 px-3 py-1 rounded-md">The Orator's Voice</span>
+          <h2 class="text-3xl sm:text-4xl font-bold font-heading leading-tight">
+            "Words Have The Power To Inspire, Align, And Propel Teams Forward."
+          </h2>
+          <p class="text-slate-300 text-base leading-relaxed">
+            In high-stakes industries like aviation, technical competence must be paired with crystal-clear communication. As an experienced public speaker and debate enthusiast, I believe in transforming ideas into actionable conviction.
+          </p>
+          <div class="space-y-3 text-sm text-slate-200">
+            <div class="flex items-center gap-3">
+              <div class="w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">✓</div>
+              <span>Inspiring student & youth audiences to pursue careers in aviation & global logistics.</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">✓</div>
+              <span>Hosting collegiate conferences, panel discussions, and competitive debate summits.</span>
+            </div>
+            <div class="flex items-center gap-3">
+              <div class="w-7 h-7 rounded-full bg-amber-500/20 text-amber-400 flex items-center justify-center shrink-0">✓</div>
+              <span>Mentoring emerging speakers in articulation, breath control, and persuasive rhetoric.</span>
+            </div>
+          </div>
+          <div class="pt-4">
+            <a href="#contact" class="inline-flex items-center gap-2 px-6 py-3 rounded-xl bg-gradient-to-r from-amber-500 to-amber-600 text-slate-950 font-bold hover:brightness-110 transition-all shadow-lg">
+              <i data-lucide="calendar" class="w-5 h-5"></i>
+              <span>Book For A Speaking Session</span>
+            </a>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6">
+          <div class="rounded-2xl bg-slate-800/80 border border-slate-700 p-8 shadow-2xl relative">
+            <i data-lucide="quote" class="w-12 h-12 text-blue-500/30 absolute top-6 right-6"></i>
+            <h3 class="text-xl font-bold font-heading text-white mb-4">Core Speaking Themes</h3>
+            <div class="space-y-4">
+              <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                <h4 class="font-bold text-amber-300 text-sm">1. The Human Factor in Aviation Safety</h4>
+                <p class="text-xs text-slate-400 mt-1">How emotional calm and clear communication avert catastrophic ramp and cockpit errors.</p>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                <h4 class="font-bold text-cyan-300 text-sm">2. From The Classroom to The Tarmac</h4>
+                <p class="text-xs text-slate-400 mt-1">Lessons learned from 200 operational hours at Sharjah International Airport.</p>
+              </div>
+              <div class="p-4 rounded-xl bg-slate-900/60 border border-slate-800">
+                <h4 class="font-bold text-emerald-300 text-sm">3. The Power of "More Think"</h4>
+                <p class="text-xs text-slate-400 mt-1">Cultivating deep curiosity, critical questioning, and innovative grit in everyday challenges.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== CONTACT US SECTION ==================== -->
+  <section id="contact" class="py-24 bg-slate-50 relative">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      
+      <!-- Section Header -->
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="text-xs uppercase font-bold tracking-widest text-blue-600 bg-blue-50 px-3 py-1 rounded-md">Let's Connect</span>
+        <h2 class="text-3xl sm:text-4xl font-bold font-heading text-slate-900 mt-3">Get in Touch With Midlaj M.</h2>
+        <p class="text-slate-600 mt-3 text-sm sm:text-base">
+          Whether you have an airport operations opening, logistics inquiry, or speaking invitation, let's connect!
+        </p>
+        <div class="w-16 h-1 bg-gradient-to-r from-blue-600 to-cyan-500 mx-auto mt-4 rounded-full"></div>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+        
+        <!-- Left Column: Contact Cards & Socials -->
+        <div class="lg:col-span-5 space-y-6">
+          
+          <!-- LinkedIn Card -->
+          <a href="https://www.linkedin.com/in/midlaj-m1" target="_blank" rel="noopener noreferrer" class="block p-6 rounded-2xl bg-white border border-slate-200/90 shadow-sm hover:border-[#0077b5] hover:shadow-md transition-all group">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-xl bg-[#0077b5]/10 text-[#0077b5] flex items-center justify-center group-hover:bg-[#0077b5] group-hover:text-white transition-colors">
+                <i data-lucide="linkedin" class="w-6 h-6"></i>
+              </div>
+              <div class="flex-1">
+                <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Professional Profile</span>
+                <h4 class="text-base font-bold text-slate-900">midlaj-m1</h4>
+                <p class="text-xs text-slate-500">Connect on LinkedIn for career opportunities</p>
+              </div>
+              <i data-lucide="external-link" class="w-5 h-5 text-slate-400 group-hover:text-[#0077b5] transition-colors"></i>
+            </div>
+          </a>
+
+          <!-- Instagram Card -->
+          <a href="https://www.instagram.com/__.mid_laj._" target="_blank" rel="noopener noreferrer" class="block p-6 rounded-2xl bg-white border border-slate-200/90 shadow-sm hover:border-pink-500 hover:shadow-md transition-all group">
+            <div class="flex items-center gap-4">
+              <div class="w-12 h-12 rounded-xl bg-pink-50 text-pink-600 flex items-center justify-center group-hover:bg-gradient-to-tr group-hover:from-purple-600 group-hover:via-pink-600 group-hover:to-amber-500 group-hover:text-white transition-all">
+                <i data-lucide="instagram" class="w-6 h-6"></i>
+              </div>
+              <div class="flex-1">
+                <span class="text-xs text-slate-400 font-semibold uppercase tracking-wider">Social / Personal</span>
+                <h4 class="text-base font-bold text-slate-900">@__.mid_laj._</h4>
+                <p class="text-xs text-slate-500">Follow life, thoughts & speaking highlights</p>
+              </div>
+              <i data-lucide="external-link" class="w-5 h-5 text-slate-400 group-hover:text-pink-600 transition-colors"></i>
+            </div>
+          </a>
+
+          <!-- Quick Details Box -->
+          <div class="p-6 rounded-2xl bg-slate-900 text-white space-y-4">
+            <h4 class="font-bold text-base font-heading flex items-center gap-2">
+              <i data-lucide="plane" class="w-5 h-5 text-cyan-400"></i>
+              <span>Availability & Location</span>
+            </h4>
+            <div class="space-y-2 text-xs sm:text-sm text-slate-300">
+              <div class="flex items-center gap-2">
+                <i data-lucide="map-pin" class="w-4 h-4 text-red-400"></i>
+                <span>UAE (Sharjah / Dubai) & India</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i data-lucide="globe" class="w-4 h-4 text-blue-400"></i>
+                <span>Open for Worldwide Relocation & Roles</span>
+              </div>
+              <div class="flex items-center gap-2">
+                <i data-lucide="mail" class="w-4 h-4 text-emerald-400"></i>
+                <span>Direct inquiries welcome via contact form</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Right Column: Interactive Contact Form -->
+        <div class="lg:col-span-7">
+          <div class="bg-white rounded-2xl p-8 sm:p-10 shadow-sm border border-slate-200/90">
+            <h3 class="text-2xl font-bold text-slate-900 font-heading mb-2">Send a Direct Message</h3>
+            <p class="text-slate-600 text-sm mb-6">Fill in the form below and I will get back to you promptly.</p>
+
+            <form id="contactForm" class="space-y-4">
+              <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                <div>
+                  <label for="senderName" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Your Name *</label>
+                  <input type="text" id="senderName" required placeholder="e.g. Captain Ahmed / Sarah" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm">
+                </div>
+                <div>
+                  <label for="senderEmail" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Your Email *</label>
+                  <input type="email" id="senderEmail" required placeholder="name@example.com" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm">
+                </div>
+              </div>
+
+              <div>
+                <label for="subject" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Subject</label>
+                <select id="subject" class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm bg-white">
+                  <option value="Airport Operations Opportunity">Airport Operations Opportunity</option>
+                  <option value="Logistics & Supply Chain Role">Logistics & Supply Chain Role</option>
+                  <option value="Public Speaking / Emcee Invitation">Public Speaking / Emcee Invitation</option>
+                  <option value="General Collaboration / Networking">General Collaboration / Networking</option>
+                </select>
+              </div>
+
+              <div>
+                <label for="message" class="block text-xs font-bold uppercase tracking-wider text-slate-700 mb-1">Your Message *</label>
+                <textarea id="message" rows="4" required placeholder="Tell me about your organization, event, or inquiry..." class="w-full px-4 py-3 rounded-xl border border-slate-300 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-transparent text-sm"></textarea>
+              </div>
+
+              <button type="submit" class="w-full py-3.5 rounded-xl bg-gradient-to-r from-blue-600 to-cyan-500 text-white font-bold text-sm shadow-md hover:shadow-blue-500/30 hover:opacity-95 transition-all flex items-center justify-center gap-2">
+                <i data-lucide="send" class="w-4 h-4"></i>
+                <span>Transmit Message</span>
+              </button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==================== FOOTER ==================== -->
+  <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="flex flex-col md:flex-row items-center justify-between gap-6 text-center md:text-left">
+        
+        <div>
+          <span class="text-xl font-bold font-heading text-white tracking-tight">MIDLAJ M.</span>
+          <p class="text-xs text-slate-500 mt-1">BBA Aviation & Logistics | 200+ Hours Sharjah Int'l Airport Operations | Public Speaker</p>
+        </div>
+
+        <!-- Social Links in Footer -->
+        <div class="flex items-center gap-4">
+          <a href="https://www.linkedin.com/in/midlaj-m1" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-white hover:border-blue-500 transition-colors" title="LinkedIn">
+            <i data-lucide="linkedin" class="w-4 h-4"></i>
+          </a>
+          <a href="https://www.instagram.com/__.mid_laj._" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-pink-400 hover:border-pink-500 transition-colors" title="Instagram">
+            <i data-lucide="instagram" class="w-4 h-4"></i>
+          </a>
+          <a href="#hero" class="w-10 h-10 rounded-full bg-slate-900 border border-slate-800 flex items-center justify-center text-slate-400 hover:text-cyan-400 hover:border-cyan-500 transition-colors" title="Back to Top">
+            <i data-lucide="arrow-up" class="w-4 h-4"></i>
+          </a>
+        </div>
+
+      </div>
+
+      <div class="mt-8 pt-8 border-t border-slate-900 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-500">
+        <p>&copy; 2026 Midlaj M. All rights reserved.</p>
+        <p class="mt-2 sm:mt-0">Designed for Operational Excellence & High Impact Presentation.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ==================== PROJECT DETAILS MODAL ==================== -->
+  <div id="projectModal" class="fixed inset-0 z-50 hidden items-center justify-center p-4 bg-slate-950/80 backdrop-blur-sm">
+    <div class="relative w-full max-w-2xl bg-white rounded-2xl shadow-2xl border border-slate-200 overflow-hidden transform transition-all">
+      <div class="p-6 sm:p-8">
+        <div class="flex items-center justify-between mb-4">
+          <span id="modalBadge" class="px-3 py-1 rounded-full bg-blue-100 text-blue-700 text-xs font-bold uppercase tracking-wider">Badge</span>
+          <button id="modalCloseBtn" type="button" class="p-2 rounded-full text-slate-400 hover:text-slate-700 hover:bg-slate-100 transition-colors">
+            <i data-lucide="x" class="w-5 h-5"></i>
+          </button>
+        </div>
+        <h3 id="modalTitle" class="text-2xl font-bold font-heading text-slate-900 mb-3">Project Title</h3>
+        <p id="modalDescription" class="text-slate-600 text-sm leading-relaxed mb-6">Project detailed overview.</p>
+        
+        <h4 class="text-xs font-bold uppercase tracking-wider text-slate-900 mb-3">Key Highlights & Operations Covered:</h4>
+        <ul id="modalKeyPoints" class="space-y-2 text-xs sm:text-sm text-slate-700 mb-6">
+          <!-- Filled dynamically by JavaScript -->
+        </ul>
+
+        <div class="pt-4 border-t border-slate-100 flex justify-end">
+          <a href="#contact" onclick="document.getElementById('modalCloseBtn').click();" class="px-5 py-2.5 rounded-xl bg-blue-600 text-white text-xs sm:text-sm font-semibold hover:bg-blue-700 transition-colors">
+            Inquire About This Project
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== TOAST NOTIFICATION ==================== -->
+  <div id="toast" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 pointer-events-none transition-all duration-300 flex items-center gap-3 px-5 py-3.5 rounded-xl bg-emerald-600 text-white text-sm font-medium shadow-2xl">
+    <i data-lucide="check-circle" class="w-5 h-5"></i>
+    <span id="toastMsg">Notification message</span>
+  </div>
+
+  <!-- Main JavaScript File -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
